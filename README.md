@@ -1,6 +1,9 @@
 
 # GoLang CRUD API with Structs and Slices
 
+![CRUD Diagram](./assets/CRUD.png)
+
+
 CRUD API project using Golang, without a database. I use trucks and slices to store and manipulate data on the server, which allows for faster and more efficient operations. To handle incoming requests and responses, I utilize Gorilla mux to create five different routes: get all, get by id, create, update, and delete.  
 
 I utilised essential Golang concepts, such as structs and slices, and demonstrate how to use them to store and access data. Additionally, I use JSON encoding and decoding to ensure that data is sent and received correctly between the server and client. For testing, PowerShell and Postman is used to make requests and receive responses.  
